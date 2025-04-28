@@ -5,6 +5,8 @@ import org.example.selimgaaloularctic7.Entity.Contrat;
 import org.example.selimgaaloularctic7.Repository.IContratRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @AllArgsConstructor
 @Service
 public class ContratServiceimpl  implements IContratService{
@@ -16,4 +18,6 @@ public class ContratServiceimpl  implements IContratService{
     public Contrat ajouterContrat(Contrat c){
         return contratRepository.save(c);
     }
+
+
 }

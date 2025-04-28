@@ -1,5 +1,7 @@
 package org.example.selimgaaloularctic7.Entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.databind.annotation.JsonAppend;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
@@ -26,6 +28,7 @@ public class Beneficiaire implements Serializable {
     private float salaire;
 
     //relatiom
+    @JsonIgnore
     @OneToMany(mappedBy = "bnf")
     private Set<Assurance> assurances;
 

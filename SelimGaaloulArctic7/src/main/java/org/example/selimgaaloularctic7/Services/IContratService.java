@@ -5,4 +5,5 @@ import org.example.selimgaaloularctic7.Entity.Contrat;
 public interface IContratService {
 
     public Contrat ajouterContrat(Contrat c);
+
 }
