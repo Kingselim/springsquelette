@@ -1,0 +1,8 @@
+org/example/selimgaaloularctic7/Entity/Contrat.class
+org/example/selimgaaloularctic7/Services/AssuranceServiceimpl.class
+org/example/selimgaaloularctic7/Entity/TypeContrat.class
+org/example/selimgaaloularctic7/Services/IAssuranceService.class
+org/example/selimgaaloularctic7/Controller/AssuranceController.class
+org/example/selimgaaloularctic7/Entity/Assurance.class
+org/example/selimgaaloularctic7/Entity/Beneficiaire.class
+org/example/selimgaaloularctic7/SelimGaaloulArctic7Application.class
